@@ -1,0 +1,10 @@
+function replaceRepeatingChars(input) {
+    let text = "";
+    for (let a = 0; a < input.length; a++) {
+      if(input[a]!==input[a+1]){
+          text+= input[a]
+      }
+    }
+
+    console.log(text);
+}
